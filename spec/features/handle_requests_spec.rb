@@ -4,7 +4,7 @@ feature 'User can make a booking request ' do
  scenario 'request is saved to database and displayed' do
   populate_properties
   create_user_sign_in
-  click_button "Request a booking"
+  click_link "Request a booking"
  end
 end
 

@@ -10,7 +10,7 @@ feature 'Users can approve bookings' do
     click_button 'Sign Out'
 
     create_dave_sign_in
-    click_button "Casa alla Steve"
+    click_link "Request a booking"
     click_link "Go back to main"
     click_button "Browse listings"
     click_button 'Sign Out'
@@ -19,9 +19,7 @@ feature 'Users can approve bookings' do
     fill_in(:email, with: 'jobs@world.net')
     fill_in(:password, with: 'apple')
     click_button 'Submit'
-
     click_button 'Manage your properties'
-
 
     expect(page).to have_content('Casa alla Steve')
  end

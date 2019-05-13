@@ -3,12 +3,11 @@
 <title>Ruby n B</title>
 </head>
 <center>
-  <br><h2>Manage your properties here!</h2>
+<br><h2><span class="highlight">Manage your properties here!</span></h2>
 
 <% if @first_name %><form action="/sign_out" method="post">
 <input type="submit" value="Sign Out" class = "button" style="border:none">
 </form><% end %>
-
 <% if @first_name %><form action="/add_listing" method="get">
 <input type="submit" value="Add new listing" class = "button" style="border:none">
 </form><% end %>
@@ -18,9 +17,8 @@
 </form><% end %>
 </center>
 
-<h5><div style="background-color: rgba(255, 255, 255, 0.9); padding: 10px; margin: 20px; width: 450px;">
+<h4><div style="background-color: rgba(255, 255, 255, 0.9); padding: 10px; margin: 20px; width: 450px;">
 Casa alla Steve<br><br><form action align = "right">
-<input type="submit" value="Confirm" class = "button" style="border:none">
-</form></div></h5>
+<a href="/manage_properties">Confirm</a>&nbsp;&nbsp;&nbsp;<a href="/manage_properties">Reject</a><hr></div></h4>
 
 <br><h6><a href="/">Go back to main</a></h6>

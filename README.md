@@ -1,12 +1,16 @@
-MakersBnB Challenge
-=================
+# MakersBnB Challenge
+
+Week 6 Challenge at [Makers Academy](https://makers.tech/)
+
+Original version collaboration repo available [Here](https://github.com/Kintaro-Oe/MakersBnB)
+
 
 __Team Collaborators__
 
-Marcus Clairmont - https://github.com/Kintaro-Oe
-Sejin Kim - https://github.com/sejinkay
-Jordan Roberts - https://github.com/jordantroberts
-Scott Hall - https://github.com/HottScall
+- Marcus Clairmont - https://github.com/Kintaro-Oe
+- Sejin Kim - https://github.com/sejinkay
+- Jordan Roberts - https://github.com/jordantroberts
+- Scott Hall - https://github.com/HottScall
 
 ### Context
 Makers Academy - Week six group challenge:
